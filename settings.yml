@@ -69,6 +69,31 @@ engines:
     shortcut: bl
     disabled: false
 
+  - name: google images
+    engine: google_images
+    shortcut: gim
+    disabled: false
+
+  - name: bing images
+    engine: bing_images
+    shortcut: bim
+    disabled: false
+
+  - name: duckduckgo images
+    engine: duckduckgo_images
+    shortcut: dim
+    disabled: false
+
+  - name: deviantart
+    engine: deviantart
+    shortcut: da
+    disabled: false
+
+  - name: openverse
+    engine: openverse
+    shortcut: ov
+    disabled: false
+
 outgoing:
   request_timeout: 15.0
   max_request_timeout: 30.0
